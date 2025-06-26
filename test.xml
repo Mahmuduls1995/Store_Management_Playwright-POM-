@@ -1,0 +1,18 @@
+<suite name="E-Commerce" parallel="tests" thread-count="1">
+    <test name="Login Test">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Product Test" depends-on="Login Test">
+        <classes>
+            <class name="tests.ProductTest"/>
+        </classes>
+    </test>
+
+    <test name="Update Test" depends-on="Product Test">
+        <classes>
+            <class name="tests.UpdateTest"/>
+        </classes>
+    </test>
+</suite>
