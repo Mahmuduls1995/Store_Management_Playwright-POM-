@@ -95,7 +95,7 @@ The project generates detailed HTML reports using Extent Reports, including:
 - Environment details
 
 Sample report highlights:
-![Report Screenshot](screenshots/login_pass.png)
+![Report Screenshot](screenshots/Report.png)
 
 ## Screenshots
 
